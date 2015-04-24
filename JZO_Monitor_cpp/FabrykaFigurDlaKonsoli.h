@@ -2,7 +2,7 @@
 #include "FabrykaFigur.h"
 #include "Monitor.h"
 
-class FabrykaFigurDlaKonsoli: FabrykaFigur
+class FabrykaFigurDlaKonsoli: public  FabrykaFigur
 {
 public:
 	Figura* stworzKolo(Monitor* m);
