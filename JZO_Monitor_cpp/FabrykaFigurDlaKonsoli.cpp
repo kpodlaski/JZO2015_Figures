@@ -14,7 +14,7 @@ FabrykaFigurDlaKonsoli::~FabrykaFigurDlaKonsoli(void)
 {
 }
 
-Figura* FabrykaFigurDlaKonsoli::stworzKolo(Monitor* m){
+Figura* FabrykaFigurDlaKonsoli::stworzKolo(){
 	int r,x,y;
 	m->pokazText("Podaj promien");
 	cin>>r;
@@ -25,10 +25,10 @@ Figura* FabrykaFigurDlaKonsoli::stworzKolo(Monitor* m){
 	return new Kolo(x,y,r);
 }
 
-Figura* FabrykaFigurDlaKonsoli::stworzProstokat(Monitor* m){
+Figura* FabrykaFigurDlaKonsoli::stworzProstokat(){
 	return 0;
 }
 
-Figura* FabrykaFigurDlaKonsoli::stworzTrojkat(Monitor* m){
+Figura* FabrykaFigurDlaKonsoli::stworzTrojkat(){
 return 0;
 }

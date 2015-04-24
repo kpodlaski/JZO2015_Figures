@@ -5,9 +5,9 @@
 class FabrykaFigurDlaKonsoli: public  FabrykaFigur
 {
 public:
-	Figura* stworzKolo(Monitor* m);
-	Figura* stworzProstokat(Monitor* m);
-	Figura* stworzTrojkat(Monitor* m);
+	Figura* stworzKolo();
+	Figura* stworzProstokat();
+	Figura* stworzTrojkat();
 	FabrykaFigurDlaKonsoli(Monitor* m);
 	~FabrykaFigurDlaKonsoli(void);
 };
