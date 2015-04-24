@@ -22,7 +22,7 @@ Figura* FabrykaFigurDlaKonsoli::stworzKolo(){
 	cin>>x;
 	m->pokazText("Podaj Y");
 	cin>>y;
-	return new Kolo(x,y,r);
+	return new Kolo(x,y,r); 
 }
 
 Figura* FabrykaFigurDlaKonsoli::stworzProstokat(){

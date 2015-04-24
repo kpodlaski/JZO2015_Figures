@@ -26,9 +26,9 @@ int _tmain(int argc, _TCHAR* argv[])
 	int key;
 	cin>>key;
 	switch (key){
-		case 1 : f=factory->stworzKolo();
-		case 2 : f=factory->stworzProstokat();
-		case 3 : f=factory->stworzTrojkat();
+		case 1 : f=factory->stworzKolo(); break;
+		case 2 : f=factory->stworzProstokat(); break;
+		case 3 : f=factory->stworzTrojkat(); break;
 	}
 	m->narysuj(f);
 
